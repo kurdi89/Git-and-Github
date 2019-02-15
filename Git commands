@@ -36,3 +36,8 @@ git rm --cached index.html
 git add . 
 // commit : 
 git commit -> i -> :wq 
+or 
+git commit - 'my comments are : changed app.js'
+
+// git ignore : 
+// creates a file thats ignores what files to be commited or include (example : logs files )
