@@ -123,4 +123,5 @@ git pull
 ### will copy the repo into the current dirctory
 ```
 git clone
+git clone <link to the rep>
 ```
