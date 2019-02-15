@@ -56,10 +56,10 @@ then press  -> i
 then enter -> :wq
 
 
-or 
+### or 
 *on windows it should be double qoutes : took me an hour to figure that out!*
 ```
-git commit - "my comments are : changed app.js"
+git commit -m "my comments are : changed app.js"
 ```
 ### to git ignore : 
 creates a file thats ignores what files to be commited or include (example : logs files )
