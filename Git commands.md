@@ -1,4 +1,4 @@
-# git and github commands 
+# Git and Github commands 
 ### self explain cheatsheet
 
 thanks you can share this 
@@ -22,8 +22,8 @@ git commit
 
 ### add username and name 
 ```
-git config --global user.name 'Abdul kurdi'
-git config --global user.email 'kurdi.89@hotmail.com'
+git config --global user.name 'your name'
+git config --global user.email 'example@mail.com'
 ```
 
 ### to add a file : 
@@ -50,8 +50,12 @@ git add .
 ```
 ### then commit : 
 ```
-git commit -> i -> :wq 
+git commit 
 ```
+then press  -> i 
+then enter -> :wq
+
+
 or 
 ```
 git commit - 'my comments are : changed app.js'
@@ -91,7 +95,7 @@ git merge login
 
 
 # remote : 
-## remote repos : 
+### remote repos : 
 ### display remote repos on your account : 
 ```
 git remote 
@@ -109,7 +113,7 @@ git push -u origin master
 ```
 
 
-### push to a remote repo (github, bitbucket), you have to add credi or SSH keys 
+### push to a remote repo (github, bitbucket), you have to add credintials login or SSH keys 
 ```
 git push 
 ```
