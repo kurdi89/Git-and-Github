@@ -8,13 +8,6 @@ git add .
 # to commit changes
 git commit
 
-### remote repos : 
-git push 
-/ push to a remote repo (github, bitbucket), you have to add credi or SSH keys 
-git pull 
-/ pulls lateset version from remote
-git clone
-/ will copy the repo into the current dirctory
 
 ### add username and name 
 git config --global user.name 'Abdul kurdi'
@@ -63,3 +56,27 @@ git checkout master
 
 # merging a branch to the master 
 git merge login
+
+
+
+
+### remote : 
+## remote repos : 
+# display remote repos on your account : 
+git remote 
+
+# add a remote repo :
+git remote add origin <link to the repo>
+git remote add origin https://github.com/kurdi89/test
+
+# push to that remote repo
+git push -u origin master
+
+# push to a remote repo (github, bitbucket), you have to add credi or SSH keys 
+git push 
+
+# pulls lateset version from remote
+git pull 
+
+# will copy the repo into the current dirctory
+git clone
