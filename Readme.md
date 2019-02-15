@@ -1,4 +1,4 @@
-# git and github commands 
+# Git and Github commands 
 ### self explain cheatsheet
 
 thanks you can share this 
@@ -22,8 +22,8 @@ git commit
 
 ### add username and name 
 ```
-git config --global user.name 'Abdul kurdi'
-git config --global user.email 'kurdi.89@hotmail.com'
+git config --global user.name 'your name'
+git config --global user.email 'example@mail.com'
 ```
 
 ### to add a file : 
@@ -50,11 +50,16 @@ git add .
 ```
 ### then commit : 
 ```
-git commit -> i -> :wq 
+git commit 
 ```
+then press  -> i 
+then enter -> :wq
+
+
 or 
+*on windows it should be double qoutes : took me an hour to figure that out!*
 ```
-git commit - 'my comments are : changed app.js'
+git commit - "my comments are : changed app.js"
 ```
 ### to git ignore : 
 creates a file thats ignores what files to be commited or include (example : logs files )
@@ -62,8 +67,9 @@ creates a file thats ignores what files to be commited or include (example : log
 create a .gitignore file using touch .gitignore and inside it add files or /directory name to be ignored  or *.text
 
 ### after adding all files you can commit with new -m 'comment'
+*on windows it should be double qoutes*
 ```
-git  commit -m 'your comments'
+git  commit -m "your comments"
 ```
 
 
@@ -91,7 +97,7 @@ git merge login
 
 
 # remote : 
-## remote repos : 
+### remote repos : 
 ### display remote repos on your account : 
 ```
 git remote 
@@ -109,7 +115,7 @@ git push -u origin master
 ```
 
 
-### push to a remote repo (github, bitbucket), you have to add credi or SSH keys 
+### push to a remote repo (github, bitbucket), you have to add credintials login or SSH keys 
 ```
 git push 
 ```
@@ -123,4 +129,5 @@ git pull
 ### will copy the repo into the current dirctory
 ```
 git clone
+git clone <link to the rep>
 ```
