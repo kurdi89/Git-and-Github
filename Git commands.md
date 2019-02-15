@@ -43,7 +43,7 @@ git commit - 'my comments are : changed app.js'
 
 ### to git ignore : 
 # creates a file thats ignores what files to be commited or include (example : logs files )
-# create a .gitignore file using touch .gitignore and inside it add files or /directory name to be ignored 
+create a .gitignore file using touch .gitignore and inside it add files or /directory name to be ignored  or *.text
 
 # after adding all files you can commit with new -m 'comment'
 git  commit -m 'your comments'
