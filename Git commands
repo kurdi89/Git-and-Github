@@ -1,0 +1,28 @@
+git init
+git add <file>
+git commit
+
+// with remote repos : 
+git push 
+/ push to a remote repo (github, bitbucket), you have to add credi or SSH keys 
+git pull 
+/ pulls lateset version from remote
+git clone
+/ will copy the repo into the current dirctory
+
+// add username and name 
+git config --global user.name 'Abdul kurdi'
+git config --global user.email 'kurdi.89@hotmail.com'
+
+// to add a file : 
+git add filename.ext
+git add index.html
+git add *.html
+git add .
+
+// to know the status : 
+git status // will be used a lot 
+
+// to remove from the staging area : 
+git rm --cached filename.ext
+git rm --cached index.html
